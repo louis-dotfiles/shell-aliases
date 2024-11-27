@@ -1,6 +1,7 @@
 # Note: git aliases are in the $XDG_CONFIG_HOME/git/config file.
 
 # General GNU tools.
+alias sdn="shutdown now"
 alias nv="nvim"
 alias cp="cp -ivr"
 alias mv="mv -iv"
