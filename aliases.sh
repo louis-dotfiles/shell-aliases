@@ -57,7 +57,7 @@ alias :E="nvim"
 ##########
 
 alias dk='docker'
-alias dcp='docker-compose' # I decided not to use dkcp because of the risk of collision with dkc on a mistype.
+alias dcp='docker compose' # I decided not to use dkcp because of the risk of collision with dkc on a mistype.
 alias dkc='docker container'
 alias dki='docker image'
 alias dkils='docker image ls' # Convenience alias so that I don't have to type the <Space>.
