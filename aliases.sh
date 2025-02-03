@@ -23,6 +23,7 @@ alias ssha='ssh-add'
 alias npmls='npm list -g --depth=0'
 alias setkb="setxkbmap" # fr / us
 alias wifi="nmcli device wifi"
+alias con="nmcli connection"
 
 
 function fork_terminal {
