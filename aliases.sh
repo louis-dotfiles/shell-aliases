@@ -60,15 +60,15 @@ alias :E="nvim"
 ##########
 
 alias dk='docker'
+alias dkb='docker buildx build'
 alias dcp='docker compose' # I decided not to use dkcp because of the risk of collision with dkc on a mistype.
 alias dkc='docker container'
 alias dki='docker image'
-alias dkils='docker image ls' # Convenience alias so that I don't have to type the <Space>.
 alias dkv='docker volume'
 alias dke='docker exec'
 alias dkl='docker logs'
 
-alias dkils='docker image ls --format "table {{.Repository}}\t{{.Tag}}\t{{.ID}}"'
+alias dkils='docker image ls --format "table {{.Repository}}\t{{.Tag}}\t{{.ID}}\t{{.Size}}"'
 alias dkcls='docker container ls -a --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Status}}"'
 alias dkps='docker ps --format "table {{.Names}}\t{{.Image}}\t{{.Status}}"'
 alias dkS='docker stop $(docker container ls -q)'
