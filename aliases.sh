@@ -12,6 +12,9 @@ alias ll="eza --long --header --group --group-directories-first"
 alias lla="eza --long --header --group --all --group-directories-first"
 alias grep="grep --color=auto"
 
+alias pud="pushd"
+alias pod="popd"
+
 alias tree="tree -CF -I node_modules --dirsfirst"
 
 
