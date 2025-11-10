@@ -30,13 +30,6 @@ alias wifi="nmcli device wifi"
 alias con="nmcli connection"
 
 
-function fork_terminal {
-  # Open new terminal in the background and disown it so that it survives the death of the 'parent' terminal.
-  alacritty --hold --working-directory $(pwd) &!
-}
-alias ff=fork_terminal
-
-
 
 ################
 # CD and stuff #
