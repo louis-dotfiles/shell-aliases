@@ -17,8 +17,6 @@ alias pod="popd"
 
 alias tree="tree -CF -I node_modules --dirsfirst"
 
-alias jc="journalctl"
-alias sc="systemctl"
 
 
 
@@ -114,13 +112,15 @@ alias kcgs='kubectl get secrets'
 # SYSTEMCTL #
 #############
 
-alias sysc='systemctl'
-alias syscr='systemctl restart'
-alias syscst='systemctl status'
-alias sysce='systemctl enable'
-alias syscd='systemctl disable'
-alias syscls='systemctl list-unit-files'
-alias sysclse='systemctl list-unit-files --state=enabled'
+alias sc='systemctl'
+alias scr='systemctl restart'
+alias scst='systemctl status'
+alias sce='systemctl enable'
+alias scd='systemctl disable'
+alias scls='systemctl list-unit-files'
+alias sclse='systemctl list-unit-files --state=enabled'
+
+alias jc="journalctl"
 
 
 
