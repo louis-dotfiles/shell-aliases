@@ -17,6 +17,9 @@ alias pod="popd"
 
 alias tree="tree -CF -I node_modules --dirsfirst"
 
+alias jc="journalctl"
+alias sc="systemctl"
+
 
 
 # SSH
