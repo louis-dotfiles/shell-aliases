@@ -7,9 +7,11 @@ alias cp="cp -ivr"
 alias mv="mv -iv"
 alias rm="rm -v"
 alias mkd="mkdir -pv"
+
 alias ls="ls -hNF --color=auto --group-directories-first"
 alias ll="eza --long --header --group --group-directories-first"
 alias lla="eza --long --header --group --all --group-directories-first"
+
 alias grep="grep --color=auto"
 
 alias pud="pushd"
@@ -23,6 +25,8 @@ alias tree="tree -CF -I node_modules --dirsfirst"
 # SSH
 alias sshs="eval `ssh-agent -s`"
 alias ssha='ssh-add'
+
+
 
 alias npmls='npm list -g --depth=0'
 alias setkb="setxkbmap" # fr / us
@@ -134,8 +138,9 @@ alias avde="ansible-vault decrypt"
 ############
 
 # These aliases are meant to toggle particular sections of the prompt.
-# they are prefixed with 'ss' for StarShip.
-# They require the 'disabled' property to be explicitly defined in the starship configuration for the section you are trying to toggle.
+# They are prefixed with 'ss' for StarShip.
+# They require the 'disabled' property to be explicitly defined in the starship configuration for
+# the section you are trying to toggle.
 
 alias sskc='starship toggle kubernetes disabled'
 
