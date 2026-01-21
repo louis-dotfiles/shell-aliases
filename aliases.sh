@@ -1,5 +1,13 @@
 # Note: git aliases are in the $XDG_CONFIG_HOME/git/config file.
 
+
+# Some apps I rarely use and can never remember the name of.
+alias pdf="evince"
+alias image="imv"
+alias video="mpv"
+alias gpuinfo="lspci -k -d ::03xx"
+
+
 # General GNU tools.
 alias sdn="shutdown now"
 alias nv="nvim"
@@ -68,6 +76,7 @@ alias dki='docker image'
 alias dkv='docker volume'
 alias dke='docker exec'
 alias dkl='docker logs'
+alias dksp='docker system prune'
 
 alias dkils='docker image ls --format "table {{.Repository}}\t{{.Tag}}\t{{.ID}}\t{{.Size}}"'
 alias dkcls='docker container ls -a --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Status}}"'
