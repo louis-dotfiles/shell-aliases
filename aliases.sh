@@ -6,6 +6,7 @@ alias pdf="evince"
 alias image="imv"
 alias video="mpv"
 alias gpuinfo="lspci -k -d ::03xx"
+alias fonts="fc-list"
 
 
 # General GNU tools.
